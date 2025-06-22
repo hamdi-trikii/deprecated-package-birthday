@@ -109,3 +109,53 @@ img {
   color: #ff66b2;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  /* Styles for screens smaller than or equal to 768px wide */
+
+  body {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+
+  .container {
+    padding: 0.5rem; /* Reduce container padding */
+    margin: 0.1rem; /* Add some margin around the container */
+  }
+
+  h1.typewriter {
+    font-size: 1.8rem; /* Make the title smaller */
+    animation: typing 2s steps(20, end), blink-caret .75s step-end infinite; /* Adjust typing animation speed */
+  }
+
+  .tagline {
+    font-size: 1rem; /* Adjust tagline font size */
+  }
+
+  .bootmsg,
+  .final-msg p {
+    font-size: 1rem; /* Make text slightly smaller for readability */
+    line-height: 0.9rem;
+  }
+
+  ul {
+    padding-left: 3rem; /* Reduce list padding */
+    font-size: 1.1rem;
+     line-height: 1.5rem;
+     
+  }
+
+  .profile-pic {
+    width: 230px; /* Make the profile picture smaller */
+  }
+
+  .final-msg h2 {
+    font-size: 1.5rem; /* Adjust final message heading size */
+    position: static; /* Remove absolute positioning for better flow on mobile */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .inside-joke img {
+    max-width: 100%; /* Ensure the GIF scales down */
+    height: auto;
+  }
+}
