@@ -8,8 +8,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
-<body>
+<body>  <audio id="birthdaySound" src="assets/birthday_sound.mp3" preload="auto" autoplay muted loop></audio>
+
+  <!-- Add an unmute button/icon -->
+  <button id="unmuteButton" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5 );
+  ">
+    🔊
+  </button>
+
   <div class="container">
+
+    
+
+
+    
     <h1 class="typewriter" id="typewriter" >👵 3aycha v22.0.0</h1>
 
     <br><br>
@@ -94,6 +122,6 @@
     
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js" > </script>
 </body>
 </html>
