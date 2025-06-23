@@ -1,16 +1,3 @@
-document.getElementById("partyBtn").addEventListener("click", () => {
-  confetti({
-    particleCount: 100,
-    spread: 70,
-    origin: { y: 0.6 }
-  });
-});
-
-
-
-
-
-
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -43,8 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
     partyBtn.addEventListener('click', () => {
       // Trigger confetti
       confetti({
-        particleCount: 100,
-        spread: 70,
+        particleCount: 400,
+        spread: 80,
         origin: { y: 0.6 }
       });
 
@@ -62,3 +49,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+
